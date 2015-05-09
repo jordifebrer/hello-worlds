@@ -1,6 +1,4 @@
-task hello {
-    doLast {
-        println 'Hello world!'
-    }
+task hello << {
+    println 'Hello world!'
 }
 
